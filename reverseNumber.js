@@ -1,4 +1,4 @@
-    const reverse = function(nums){
+  const reverse = function(nums){
   let flag = "";
   for(let i=(nums.toString().length)-1;i>=0;i--){
     flag += nums.toString()[i];
@@ -8,7 +8,7 @@
 
 console.log(reverse(54321))
 
-// another way to do this without using reverse function.
+// another way to get the same results.
 // const num = 12345;
 
 // const reverseOfNum = function(num){
