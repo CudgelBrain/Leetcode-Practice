@@ -1,5 +1,5 @@
-// const arr = [100, 50, 25, 75, 10] ; 
-// const arr = [1, 5, 2, 3, 4];
+// const arr = [100, 50, 25, 75, 10] ; //75 was coming as second smallest element
+// const arr = [1, 5, 2, 3, 4]; //maybe 1 was coming as second smallest element
 const arr = [1, 1, 2, 3, 4];
 
 const smallestElement = function(arr){
