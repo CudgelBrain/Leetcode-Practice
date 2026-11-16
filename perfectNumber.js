@@ -18,5 +18,21 @@ const perfectNumber = function(num){
 // perfectNumber(num);
 console.log(perfectNumber(num));
 
+// Retried 
+
+// const n = 28;
+// const perfect = function(n){
+//   let flag = 0
+//   for(let i=1;i<=n/2;i++){
+//     if(n%i == 0){
+//       flag+= i
+//     }
+//   }
+//   if(n == flag) return 'Its a perfect number'
+//   else return 'Not Perfect'
+// }
+// // perfect(n)
+// console.log(perfect(n))
+
       
 
