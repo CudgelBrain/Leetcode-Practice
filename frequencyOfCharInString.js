@@ -27,3 +27,31 @@ freqOfChar(word)
 // r : 4
 // t : 4
 // y : 4
+
+
+// other method
+
+// const name = 'Hello';
+
+// const frequencyOfCharacterInString = function(name){
+//   let names = name.toLowerCase();
+//   let count = 0;
+//   let arr = [];
+//   for(let i=0;i<names.length;i++){
+//     count = 0;
+//     for(let j=0;j<names.length;j++){
+//       if(names[i] == names[j]){
+//         count++;
+//       }
+//       if(!arr.some(item => item.startsWith(names[i])) && j == names.length - 1){
+//         arr.push(`${names[i]} : ${count}`);
+//       }
+//     }
+//       // if(i==names.length -1){
+//       //   return (names[i])
+//       // }
+//   }
+//   return arr
+// }
+// console.log(frequencyOfCharacterInString(name))
+// // frequencyOfCharacterInString(name)
